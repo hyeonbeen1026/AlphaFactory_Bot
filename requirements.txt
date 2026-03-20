@@ -1,0 +1,11 @@
+pandas
+numpy
+alpaca-py
+requests
+lxml
+pytz
+joblib
+yfinance
+pyarrow
+fastparquet
+scipy
