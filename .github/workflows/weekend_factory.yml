@@ -1,9 +1,9 @@
 name: Weekend Alpha Factory (Auto-Miner)
 
 on:
-  schedule:
+  #schedule: #사용시 주석지우기
     # 매주 토요일 UTC 00:00 (한국 시간 토요일 오전 9시)에 실행
-    - cron: '0 0 * * 6'
+    #- cron: '0 0 * * 6' #사용시 주석지우기
   workflow_dispatch: # 수동 테스트용 버튼
 
 # 💡 [핵심] 봇이 코드를 수정하고 Push할 수 있도록 쓰기 권한 부여
